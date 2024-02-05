@@ -1,0 +1,14 @@
+// Author : Sara Wilson
+// Date : 2/5/24
+// Purpose: Averaging exam scores
+#include <stdio.h>
+int main(){
+double midtermScore = 72.3, finalScore = 85.8;
+double sum, average;
+
+sum = midtermScore + finalScore;
+average = sum / 2;
+
+printf("Exam average: %.25f\n", average);
+  return 0;
+}
