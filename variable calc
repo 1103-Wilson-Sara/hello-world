@@ -3,7 +3,7 @@
 // Purpose: Averaging exam scores
 #include <stdio.h>
 int main(){
-double midtermScore = 72.3, finalScore = 85.8;
+double midtermScore = 79.3, finalScore = 82.1;
 double sum, average;
 
 sum = midtermScore + finalScore;
